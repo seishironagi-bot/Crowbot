@@ -18,7 +18,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         "participant": "0@s.whatsapp.net"
     };
 
-    let crow = `🍁 *Respeta las reglas de CrowBot*\n
+    let crow = `🍁 *Respeta las reglas de Nagi-Bot*\n
 ✰ No llamar Al Bot
 ✰ No hacer spam
 ✰ Contacta al creador si es necesario
