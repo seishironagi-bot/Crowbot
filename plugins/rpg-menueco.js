@@ -198,7 +198,7 @@ await m.react('💸')
   }
 }
 handler.help = ['menueco (menu de economia)']
-handler.tags = ['crow']
+handler.tags = ['Nagi']
 handler.command = ['menue', 'menueconomia', 'menueco']
 
 export default handler
