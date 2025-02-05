@@ -3,7 +3,7 @@
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw m.reply(`🍒 Ingresa un link de un canal\n*❄️ Ejemplo:* ${usedPrefix}${command} https://whatsapp.com/channel/0029VakfOZfHFxP7rNrUQk2d`);
+if (!text) throw m.reply(`🍒 Ingresa un link de un canal\n*❄️ Ejemplo:* ${usedPrefix}${command} https://whatsapp.com/channel/0029Vaz6RTR0LKZIKwudX32x`);
 conn.sendMessage(m.chat, { react: { text: "🕒", key: m.key } });
 
   let d2 = await fetch(`https://itzpire.com/stalk/whatsapp-channel?url=${text}`)
