@@ -41,7 +41,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
     
     let sn = createHash('md5').update(m.sender).digest('hex')
     let regbot = `┏━━━━━━━━━━━━━━━━━━⬣
-┃⋄ *🎩 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 - 𝐂𝐑𝐎𝐖𝐁𝐎𝐓*
+┃⋄ *🎩 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 - NAGI-B𝐎𝐓*
 ┗━━━━━━━━━━━━━━━━━━⬣\n`
     regbot += `•✩.･*:｡≻──── ⋆♡⋆ ────.•*:｡✩•\n`
     regbot += `*「💛」𝐍𝐨𝐦𝐛𝐫𝐞:* ${name}\n`
@@ -72,7 +72,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
     }, { quoted: m });
 
     let channelID = '120363387375075395@newsletter';
-    let messageContent = `◉ *Usuarios:* ${m.pushName || 'Anónimo'}\n◉ *País:* ${userNationality || 'Desconocido'}\n◉ *Verificación:* ${user.name}\n◉ *Edad:* ${age} años\n◉ *Número de serie:*\n⤷ ${sn}\n\n🎁 *Recompensa:* 600 crowcoins 🪙\n*¡Bienvenido/a al bot!*`;
+    let messageContent = `◉ *Usuarios:* ${m.pushName || 'Anónimo'}\n◉ *País:* ${userNationality || 'Desconocido'}\n◉ *Verificación:* ${user.name}\n◉ *Edad:* ${age} años\n◉ *Número de serie:*\n⤷ ${sn}\n\n🎁 *Recompensa:* 600 nagicoins 🪙\n*¡Bienvenido/a al bot!*`;
     
     await conn.sendMessage(channelID, {
         text: messageContent, ...rcanal
